@@ -567,7 +567,7 @@
     <dialog class="modal__window" id="modal">
       <div class="modal__window-content">
         <svg class="modal-window__icon" viewBox="0 0 40 40">
-          <use href="./svg/floppy.svg" />
+           <use href="./svg/floppy.svg" />
         </svg>
         <p>Вставьте дискету,чтобы продолжить</p>
       </div>
@@ -576,6 +576,13 @@
           <span class="button__text">ок</span>
         </button>
       </form>
+      <button
+        type="button"
+        class="button modal__window-btn"
+        onclick="window.modal.close();"
+      >
+        <span class="button__text">ОК</span>
+      </button>
     </dialog>
     <script src="./scripts/like.js"></script>
   </body>
